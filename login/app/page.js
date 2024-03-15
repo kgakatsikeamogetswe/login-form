@@ -21,7 +21,9 @@ export default function Home() {
 
     <h2>Login with google</h2>
 
-    <button><IoLogoGooglePlaystore/>Login</button>
+    <button onClick={()=>{
+      signIn("Google")
+    }}><IoLogoGooglePlaystore/>Login</button>
 
     </>
   );
