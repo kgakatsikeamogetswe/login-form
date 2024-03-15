@@ -11,3 +11,5 @@ const AuthProvider = ({children, session}) => {
         </div>
     )
 }
+
+export default AuthProvider;
